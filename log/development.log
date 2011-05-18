@@ -34,3 +34,9 @@ Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
   [1m[35mSQL (0.0ms)[0m   SELECT name
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-18 22:13:18 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
