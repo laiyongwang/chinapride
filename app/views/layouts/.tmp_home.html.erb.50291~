@@ -7,20 +7,8 @@
 	</head>
 	<body>
 		<div id="header">
-			<div id="logo">logo</div>
-			<div></div>
+			header
 			
-			<div id="nanner">banner</div>
-			
-			<div id="main_menu">
-				<ul class="menu">
-					<li><a href="#">首页</a></li>
-					<li><a href="#">产品</a></li>
-					<li><a href="#">客户</a></li>
-					<li><a href="#">关于我们</a></li>
-					<li><a href="#">联系我们</a></li>
-				</ul>
-            </div>
 		</div>
 		
 		<div id="main">
