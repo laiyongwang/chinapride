@@ -11,9 +11,13 @@ body
 #header
 {
 	margin: 0px auto;
-	width: 1000px;
-	
-	height: 100px;
+	width: 960px;
+}
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+	float: right;
 }
 
 ul.menu li 
@@ -42,17 +46,29 @@ ul.menu li a:hover
 #main
 {
 	margin: 0px auto;
-	width: 1000px;
-	
+	width: 960px;	
 	height: 400px;
+	clear: both;
 }
+
+#left_col {
+	float: left;
+	width: 300px;
+}
+
+#right_col {
+	float: right;
+	width: 600px;
+}
+
 
 #footer
 {
 	margin: 0px auto;
-	width: 1000px;
-	
+	width: 960px;
+	margin-top: 10px;
 	height: 100px;
+	clear: both;
 }
 
 #footer a
@@ -60,5 +76,15 @@ ul.menu li a:hover
 	color: #666;
 	text-decoration: none;
 	
+}
+
+#lang_seletor {
+	float: right;
+	padding: 50px 10px 0 0;
+
+}
+#logo {
+	padding: 10px;
+	float: left;
 }
 

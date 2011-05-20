@@ -7,10 +7,16 @@
 	</head>
 	<body>
 		<div id="header">
-			<div id="logo">logo</div>
-			<div></div>
+			<div id="logo">
+				<%=image_tag("logo.png")%>
+			</div>			
+			<div id="lang_seletor">
+				中文 | English
+			</div>
 			
-			<div id="nanner">banner</div>
+			<div id="banner">
+				<%=image_tag "banner.png", :width => "960px"%>
+			</div>
 			
 			<div id="main_menu">
 				<ul class="menu">
@@ -24,7 +30,12 @@
 		</div>
 		
 		<div id="main">
-			<div><%= yield %></div>
+			<div id="left_col">
+				Here's is left column!
+			</div>
+			<div id="right_col">
+				<%= yield %>
+			</div>			
 		</div>
 		
 		<div id="footer">
