@@ -20,8 +20,23 @@ ul.menu li
 {
     float: left;
     list-style: none outside none;
-	width: 80px;
-	height: 30px;
+}
+
+ul.menu li a {
+    /*background: url("images/nav_left_line.gif") no-repeat scroll left top transparent;*/
+    display: block;
+    height: 26px;
+    overflow: hidden;
+    padding-top: 10px;
+    text-align: center;
+    width: 120px;
+	text-decoration: none;
+	color: #000;
+}
+
+ul.menu li a:hover
+{
+	color: blue;
 }
 
 #main
