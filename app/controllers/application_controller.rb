@@ -6,4 +6,11 @@ class ApplicationController < ActionController::Base
     I18n.locale = params[:locale]
   end
   
+  protected
+  def protected_admin    
+    authenticate_or_request_with_http_basic("Chinapride Admin") do |id, password| 
+      id == "admin" && password == "Wsh1rpw"
+    end
+  end
+  
 end

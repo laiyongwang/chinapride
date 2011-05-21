@@ -1,4 +1,6 @@
 Chinapride::Application.routes.draw do
+  get "admin/index"
+
   get "about/index"
 
   get "home/index"
