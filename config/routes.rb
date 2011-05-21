@@ -1,4 +1,6 @@
 Chinapride::Application.routes.draw do
+  get "about/index"
+
   get "home/index"
 
   # The priority is based upon order of creation:

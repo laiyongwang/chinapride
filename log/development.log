@@ -1008,3 +1008,315 @@ Started GET "/" for 127.0.0.1 at 2011-05-20 22:14:36 +0800
   Processing by HomeController#index as HTML
 Rendered home/index.html.erb within layouts/home (0.0ms)
 Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-21 10:04:28 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-21 10:08:47 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (125.0ms)
+Completed   in 156ms
+
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+ÿþ< ! D O C T Y P E   H T M L   P U B L I C   " - / / W 3 C / / D T D   H T M L   4 . 0 1 / / E N "   " h t t p : / / w w w . w 3 . o r g / T R / h t m l 4 / s t r i c t . d t d " >  
+ < h t m l >  
+ 	 < h e a d >  
+ 	 	 < m e t a   h t t p - e q u i v = " C o n t e n t - T y p e "   c o n t e n t = " t e x t / h t m l ;   c h a r s e t = i s o - 8 8 5 9 - 1 "   / >  
+ 	 	 < t i t l e > C h i n a   p r i d e < / t i t l e >  
+ 	 	 < % =   s t y l e s h e e t _ l i n k _ t a g   ' d e f a u l t '   % >  
+ 	 < / h e a d >  
+ 	 < b o d y >  
+ 	 	 < d i v   i d = " h e a d e r " >  
+ 	 	 	 < d i v   i d = " l o g o " >  
+ 	 	 	 	 < % = i m a g e _ t a g ( " l o g o . p n g " ) % >  
+ 	 	 	 < / d i v > 	 	 	  
+ 	 	 	 < d i v   i d = " l a n g _ s e l e t o r " >  
+ 	 	 	 	 -N‡e  |   E n g l i s h  
+ 	 	 	 < / d i v >  
+ 	 	 	  
+ 	 	 	 < d i v   i d = " b a n n e r " >  
+ 	 	 	 	 < % = i m a g e _ t a g   " b a n n e r . p n g " ,   : w i d t h   = >   " 9 6 0 p x " % >  
+ 	 	 	 < / d i v >  
+ 	 	 	  
+ 	 	 	 < d i v   i d = " m a i n _ m e n u " >  
+ 	 	 	 	 < u l   c l a s s = " m e n u " >  
+ 	 	 	 	 	 < l i > < a   h r e f = " # " > –™  u˜< / a > < / l i >  
+ 	 	 	 	 	 < l i > < a   h r e f = " # " > §N  ÁT< / a > < / l i >  
+ 	 	 	 	 	 < l i > < a   h r e f = " # " > ¢[  7b< / a > < / l i >  
+ 	 	 	 	 	 < l i > < a   h r e f = " / a b o u t / i n d e x " > sQŽNbìN< / a > < / l i >  
+ 	 	 	 	 	 < l i > < a   h r e f = " # " > T€û|bìN< / a > < / l i >  
+ 	 	 	 	 < / u l >  
+                         < / d i v >  
+ 	 	 < / d i v >  
+ 	 	  
+ 	 	 < d i v   i d = " m a i n " >  
+ 	 	 	 < d i v   i d = " l e f t _ c o l " >  
+ 	 	 	 	 H e r e ' s   i s   l e f t   c o l u m n !  
+ 	 	 	 < / d i v >  
+ 	 	 	 < d i v   i d = " r i g h t _ c o l " >  
+ 	 	 	 	 < % =   y i e l d   % >  
+ 	 	 	 < / d i v > 	 	 	  
+ 	 	 < / d i v >  
+ 	 	  
+ 	 	 < d i v   i d = " f o o t e r " >  
+ 	 	 	 < d i v >  
+ 	 	 	 	 HrCg@b	gÿ-NýV„š²P    P o w e r   b y   C h i n a P r i d e   < b r   / >  
+ 	 	 	 	 T€û|5uÝ‹ÿ0 2 0 - 8 8 8 8 8 8 8 8     & n b s p ; & n b s p ;    Owÿ0 2 0 - 6 6 6 6 6 6 6 6   < b r   / >  
+ 	 	 	 	 lQøS0W@Wÿ-NýV^Nw^Þ]^)Y³l:Sàs_l°eÎW‰TX1 1 1 0 1 ÷S 
+ 	 	 	 < / d i v >  
+ 	 	 	  
+ 	 	 	 < d i v >  
+ 	 	 	 	 QÙz0WþV  |   T€û|bìN  |   E n g l i s h   |   €{SO-N‡e 
+ 	 	 	 < / d i v > 	 	 	  
+ 	 	 < / d i v >  
+ 	 	  
+ 	 < / b o d y >  
+ < / h t m l >  
+ ):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-21 10:10:13 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:10:15 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:11:06 +0800
+
+SyntaxError (D:/Lyw/program/ror/chinapride/app/controllers/about_controller.rb:2: syntax error, unexpected tASSOC, expecting keyword_end
+  layout => "home";
+           ^):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:11:15 +0800
+
+SyntaxError (D:/Lyw/program/ror/chinapride/app/controllers/about_controller.rb:2: syntax error, unexpected tASSOC, expecting keyword_end
+  layout => :home;
+           ^):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:11:16 +0800
+
+SyntaxError (D:/Lyw/program/ror/chinapride/app/controllers/about_controller.rb:2: syntax error, unexpected tASSOC, expecting keyword_end
+  layout => :home;
+           ^):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:13:02 +0800
+
+SyntaxError (D:/Lyw/program/ror/chinapride/app/controllers/about_controller.rb:2: syntax error, unexpected tASSOC, expecting keyword_end
+  :layout => "home";
+            ^):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:13:03 +0800
+
+SyntaxError (D:/Lyw/program/ror/chinapride/app/controllers/about_controller.rb:2: syntax error, unexpected tASSOC, expecting keyword_end
+  :layout => "home";
+            ^):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:13:11 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 31ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:13:12 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:13:32 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:13:58 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-05-21 10:13:59 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:14:01 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:14:04 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:17:29 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed   in 31ms
+
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+Î÷×Ó°ÂµÄË¹µçÌÝÓÐÏÞ¹«Ë¾¡ª¡ªÊÀ½çµÚÒ»µçÌÝÆ·ÅÆ°ÂµÄË¹ÔÚÖÐ¹ú×î´óµÄ¿Ø¹É×Ó¹«Ë¾£¬ÊÇÖÐ¹úÂÌÉ«µçÌÝµÚÒ»Æ·ÅÆºÍÖÐ¹ú×î´óµÄµç·öÌÝÖÆÔìÉÌ¼°·þÎñÉÌÖ®Ò»¡£
+
+¡¡
+
+¡¡¡¡Î÷×Ó°ÂµÄË¹³ÉÁ¢ÓÚ1997Äê3ÔÂ12ÈÕ£¬ÓÉÊÀ½çµÚÒ»µçÌÝÆ·ÅÆ°ÂµÄË¹µçÌÝ¹«Ë¾ÓëÖÐ¹úµçÌÝÒµ×î´óÄÚ×ÊÆóÒµÎ÷×ÓµçÌÝ¼¯ÍÅºÏ×Ê×é½¨¶ø³É¡£·¢Õ¹ÖÁ½ñ£¬ÒÑ¾­³ÉÎª°ÂµÄË¹È«ÇòÐÂÌÝÏúÊÛ¶©µ¥ºÍ²úÁ¿×î´óµÄ×Ó¹«Ë¾£¬°ÂµÄË¹24¸öÈ«ÇòÑÐ·¢ÖÐÐÄÖ®Ò»£¬ÓµÓÐ22ÒÚ×Ê²úºÍ3000ÓàÃûÔ±¹¤¡£×÷ÎªÖÐ¹ú½ÚÄÜµçÌÝÁìÓòµÄÒýÁìÕßºÍÊµ¼ùÕß£¬Î÷×Ó°ÂµÄË¹ÒÔ³ÖÐø¸Ä½ø´òÔì 360¡ã ÂÌÉ«¼ÛÖµÁ´£¬Îª¿Í»§´´Ôì×î´ó»¯¼ÛÖµ¡£µ½ 2010 Äê£¬Î÷×Ó°ÂµÄË¹ÒÑ¾­Á¬ÐøÊ®Äê²õÁªÖÐ¹úµçÌÝÊÐ³¡Ç°Èý¼×£»Á¬ÐøÁùÄê±£³ÖÖÐ¹ú½ÚÄÜµçÌÝÊÐ³¡µÚÒ»Î»£»2010 ÄêÓÐ½ü 35000 Ì¨µçÌÝ¼°×Ô¶¯·öÌÝÏúÊÛ¶©µ¥£¬²úÆ·¸²¸ÇÈ«Çò 60 ¶à¸ö¹ú¼Ò):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:17:48 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:18:12 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-05-21 10:18:13 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:18:14 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:19:06 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:19:34 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:19:57 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:19:58 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:20:41 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-05-21 10:20:47 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:20:50 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:22:09 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-05-21 10:22:11 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:22:12 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-05-21 10:22:13 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-05-21 10:22:14 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/home (15.6ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
