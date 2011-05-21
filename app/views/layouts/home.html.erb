@@ -24,20 +24,20 @@
 						link
 					}.join(" | ")%>
 			</div>
-			
-			<div id="banner">
-				<%=image_tag "banner.png", :width => "960px"%>
-			</div>
-			
-			<div id="main_menu">
+			<div id="main_menu" style="clear:both;">
 				<ul class="menu">
 					<li><a href="/home/index"><%=t :homepage%></a></li>
-					<li><a href="#">产 品</a></li>
+					<li><a href="#"><%=t :product%></a></li>
 					<li><a href="#">客 户</a></li>
 					<li><a href="/about/index">关于我们</a></li>
 					<li><a href="#">联系我们</a></li>
 				</ul>
             </div>
+			
+			<div id="banner">
+				<%=image_tag "banner.png", :width => "960px"%>
+			</div>
+			
 		</div>
 		
 		<div id="main">
