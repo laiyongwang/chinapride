@@ -10,8 +10,19 @@
 			<div id="logo">
 				<%=image_tag("logo.png")%>
 			</div>			
-			<div id="lang_seletor">
-				中文 | English
+			<div id="lang_selector">
+				<% locales = {
+				  "en" => "English",
+				  "cn" => "中文"
+				}%>
+
+				<%=raw locales.collect{|k, v|
+						link = link_to_unless(I18n.locale.to_s == k, v, params.merge(:locale => k)) do |name|
+							"<strong>#{name}</strong>".html_safe
+						end
+
+						link
+					}.join(" | ")%>
 			</div>
 			
 			<div id="banner">
@@ -20,7 +31,7 @@
 			
 			<div id="main_menu">
 				<ul class="menu">
-					<li><a href="/home/index">首 页</a></li>
+					<li><a href="/home/index"><%=t :homepage%></a></li>
 					<li><a href="#">产 品</a></li>
 					<li><a href="#">客 户</a></li>
 					<li><a href="/about/index">关于我们</a></li>
