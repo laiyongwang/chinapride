@@ -1,14 +1,61 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head>
-  <title>Chinapride</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>China pride</title>
+		<%= stylesheet_link_tag 'default' %>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				<%=image_tag("logo.png", :size => "120x60")%>
+			</div>			
+			<div id="lang_selector">
+				<% locales = {
+				  "en" => "English",
+				  "cn" => "中文"
+				}%>
 
-<%= yield %>
+				<%=raw locales.collect{|k, v|
+						link = link_to_unless(I18n.locale.to_s == k, v, params.merge(:locale => k)) do |name|
+							"<strong>#{name}</strong>".html_safe
+						end
 
-</body>
+						link
+					}.join(" | ")%>
+			</div>
+			<div id="main_menu" style="clear:both;">
+				<ul class="menu">
+					<li><a href="/home/index"><%=t :homepage%></a></li>
+					<li><%=link_to "#{t :product}", products_path%></li>
+					<li><a href="#"><%=t :client%></a></li>
+					<li><a href="/about/index"><%=t :about%></a></li>
+					<li><a href="/about/contact"><%=t :contact%></a></li>
+				</ul>
+            </div>
+			
+			<div id="banner">
+				<%=image_tag "banner.png", :width => "960px"%>
+			</div>
+			
+		</div>
+		
+		<div id="main">
+			<div id="left_col">
+				Here's is left column!
+			</div>
+			<div id="right_col">
+				<%= yield %>
+			</div>			
+		</div>
+		
+		<div id="footer">
+			<div>
+				<%=t :copyright%> <br />
+				<%=t(:phone).html_safe%> <br />
+				<%=t :address%>
+			</div>			
+		</div>
+		
+	</body>
 </html>
