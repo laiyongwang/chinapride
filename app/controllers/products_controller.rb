@@ -42,6 +42,7 @@ class ProductsController < ApplicationController
   def create
     @product = Product.new(params[:product])
 
+	@product.img_path = @product.photo.path;
     respond_to do |format|
       if @product.save
         format.html { redirect_to(@product, :notice => 'Product was successfully created.') }

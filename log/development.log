@@ -4309,3 +4309,995 @@ Started GET "/products/new" for 127.0.0.1 at 2011-06-02 22:19:42 +0800
 Rendered products/_form.html.erb (15.6ms)
 Rendered products/new.html.erb within layouts/application (15.6ms)
 Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-08 19:59:03 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (125.0ms)
+Completed 200 OK in 156ms (Views: 156.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:14 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/contact" for 127.0.0.1 at 2011-06-08 19:59:16 +0800
+  Processing by AboutController#contact as HTML
+Rendered about/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 19:59:18 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (31.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 406ms (Views: 15.6ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-06-08 19:59:20 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:24 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index?locale=cn" for 127.0.0.1 at 2011-06-08 19:59:26 +0800
+  Processing by AboutController#index as HTML
+  Parameters: {"locale"=>"cn"}
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:28 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-06-08 19:59:30 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 19:59:32 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:36 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index?locale=cn" for 127.0.0.1 at 2011-06-08 19:59:38 +0800
+  Processing by AboutController#index as HTML
+  Parameters: {"locale"=>"cn"}
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:39 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:40 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:40 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:42 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:43 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:44 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2011-06-08 19:59:45 +0800
+  Processing by AboutController#index as HTML
+Rendered about/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 19:59:47 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 19:59:50 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 20:37:01 +0800
+  Processing by ProductsController#new as HTML
+  [1m[35mSQL (15.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+Completed   in 31ms
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x1c075c8>):
+  app/models/product.rb:2:in `<class:Product>'
+  app/models/product.rb:1:in `<top (required)>'
+  app/controllers/products_controller.rb:27:in `new'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.2ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 20:48:42 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (109.4ms)
+Rendered products/new.html.erb within layouts/application (125.0ms)
+Completed   in 203ms
+
+ActionView::Template::Error (undefined method `downloads_products_path' for #<#<Class:0x1e6c8b8>:0x1e68760>):
+    1: 
+    2: <%= form_for([:downloads, @product], :html => { :multipart => true } ) do |f| %>
+    3: 
+    4:   <% if @product.errors.any? %>
+    5:     <div id="error_explanation">
+  app/views/products/_form.html.erb:2:in `_app_views_products__form_html_erb___1016269064_15925944_310987368'
+  app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__231694563_15939768__731365762'
+  app/controllers/products_controller.rb:29:in `new'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 20:50:58 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (140.6ms)
+Rendered products/new.html.erb within layouts/application (156.2ms)
+Completed 200 OK in 203ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 20:51:31 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1d9d888 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-3236-py53l6>>, "content"=>"test"}, "commit"=>"Create Product"}
+Completed   in 31ms
+
+Paperclip::PaperclipError (Product model missing required attr_accessor for 'photo_file_name'):
+  app/controllers/products_controller.rb:43:in `new'
+  app/controllers/products_controller.rb:43:in `create'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110602132826)
+Migrating to CreateCategories (20110602133051)
+Migrating to AddPhotoToProducts (20110608125351)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1mALTER TABLE "products" ADD "photo_file_name" varchar(255)[0m
+  [1m[35mSQL (0.0ms)[0m  ALTER TABLE "products" ADD "photo_content_type" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mALTER TABLE "products" ADD "photo_file_size" integer[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110608125351')
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("categories")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 20:55:54 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1e48df8 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-3236-a17w64>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-rdx8vp.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-rdx8vp.png is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-rdx8vp.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-rdx8vp.png is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 438ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 20:59:15 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1d953f8 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-3236-9ktb5w>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-1q0za51.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-1q0za51.png is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-1q0za51.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-1q0za51.png is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (0.0ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 375ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 20:59:20 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 20:59:22 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 20:59:30 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1e5c490 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-3236-o8ebc6>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-p5uy6m.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-p5uy6m.png is not recognized by the 'identify' command.>
+[paperclip] identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-p5uy6m.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-3236-p5uy6m.png is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 547ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:00:47 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1914fc0 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-1humaqf>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-18q4iur.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-18q4iur.png is not recognized by the 'identify' command.>
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-18q4iur.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-18q4iur.png is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (156.2ms)
+Rendered products/new.html.erb within layouts/application (156.2ms)
+Completed 200 OK in 516ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:01:00 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 375ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 21:01:01 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:01:09 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x19d2860 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-5v69f1>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-17gd9ip.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-17gd9ip.png is not recognized by the 'identify' command.>
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-17gd9ip.png[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-17gd9ip.png is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (0.0ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 438ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:04:26 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1ebc7d8 @original_filename="UPDATE.BMP", @content_type="image/bmp", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"UPDATE.BMP\"\r\nContent-Type: image/bmp\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-1pejctv>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-agxu9y.BMP[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-agxu9y.BMP is not recognized by the 'identify' command.>
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-agxu9y.BMP[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-agxu9y.BMP is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (0.0ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 266ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:06:25 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1e350d0 @original_filename="mini.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"mini.gif\"\r\nContent-Type: image/gif\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-z6mhqc>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-hlrzk0.gif[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-hlrzk0.gif is not recognized by the 'identify' command.>
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-hlrzk0.gif[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-hlrzk0.gif is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 219ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:07:17 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x19b15c0 @original_filename="Sunset.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"Sunset.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-gcnyvw>>, "content"=>"test"}, "commit"=>"Create Product"}
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-1h0am6z.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-1h0am6z.jpg is not recognized by the 'identify' command.>
+[paperclip] /some/path/to/identify -format %wx%h "C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-1h0am6z.jpg[0]" 2>NUL
+[paperclip] An error was received while processing: #<Paperclip::NotIdentifiedByImageMagickError: C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/stream20110608-760-1h0am6z.jpg is not recognized by the 'identify' command.>
+Rendered products/_form.html.erb (0.0ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 328ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:09:14 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x184ec90 @original_filename="Sunset.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"Sunset.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-1238g4l>>, "content"=>"test"}, "commit"=>"Create Product"}
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('test', 'test', 'test', '2011-06-08 13:09:14.453125', '2011-06-08 13:09:14.453125', 'Sunset.jpg', 'image/jpeg', 71189)[0m
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/1/original/Sunset.jpg
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 641ms
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 21:09:14 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:09:18 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 109ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 21:24:28 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:24:42 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"abc", "img_path"=>"abc", "photo"=>#<ActionDispatch::Http::UploadedFile:0x153d110 @original_filename="mini.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"mini.gif\"\r\nContent-Type: image/gif\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-iw9x1r>>, "content"=>"abc"}, "commit"=>"Create Product"}
+  [1m[35mAREL (15.6ms)[0m  INSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('abc', 'abc', 'abc', '2011-06-08 13:24:42.796875', '2011-06-08 13:24:42.796875', 'mini.gif', 'image/gif', 183)
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/2/original/mini.gif
+Redirected to http://localhost:3000/products/2
+Completed 302 Found in 266ms
+
+
+Started GET "/products/2" for 127.0.0.1 at 2011-06-08 21:24:42 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 172ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:24:44 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 109ms (Views: 93.8ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 21:29:30 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (125.0ms)
+Completed   in 172ms
+
+ActionView::Template::Error (undefined method `photo' for nil:NilClass):
+    12: 
+    13: <p>
+    14:   <b>Img path:</b>
+    15:   <%= image_tag @user.photo.url(:medium) %> 
+    16: </p>
+    17: 
+    18: 
+  app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb___1056129779_13380432__11826629'
+  app/controllers/products_controller.rb:18:in `show'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 21:30:09 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/system/photos/1/medium/Sunset.jpg" for 127.0.0.1 at 2011-06-08 21:30:09 +0800
+
+ActionController::RoutingError (No route matches "/system/photos/1/medium/Sunset.jpg"):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:30:18 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 21:30:25 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/system/photos/1/medium/Sunset.jpg" for 127.0.0.1 at 2011-06-08 21:30:25 +0800
+
+ActionController::RoutingError (No route matches "/system/photos/1/medium/Sunset.jpg"):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 21:36:52 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:38:27 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/2/edit" for 127.0.0.1 at 2011-06-08 21:38:30 +0800
+  Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/edit.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 109ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:41:02 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 109ms (Views: 46.9ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 21:41:04 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (46.9ms)
+Rendered products/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 109ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:41:28 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"third", "img_path"=>"third", "photo"=>#<ActionDispatch::Http::UploadedFile:0x18f75c0 @original_filename="mini.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"mini.gif\"\r\nContent-Type: image/gif\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-8u3oph>>, "content"=>"third"}, "commit"=>"Create Product"}
+Completed   in 125ms
+
+NoMethodError (undefined method `image_url=' for #<Product:0x187d2b0>):
+  app/controllers/products_controller.rb:45:in `create'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:42:01 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"third", "img_path"=>"third", "photo"=>#<ActionDispatch::Http::UploadedFile:0x19b7230 @original_filename="mini.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"mini.gif\"\r\nContent-Type: image/gif\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-166qz76>>, "content"=>"third"}, "commit"=>"Create Product"}
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('third', '/system/photos//original/mini.gif?1307540521', 'third', '2011-06-08 13:42:01.609375', '2011-06-08 13:42:01.609375', 'mini.gif', 'image/gif', 183)[0m
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/3/original/mini.gif
+Redirected to http://localhost:3000/products/3
+Completed 302 Found in 359ms
+
+
+Started GET "/products/3" for 127.0.0.1 at 2011-06-08 21:42:01 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/system/photos//original/mini.gif?1307540521" for 127.0.0.1 at 2011-06-08 21:42:16 +0800
+
+ActionController::RoutingError (No route matches "/system/photos/original/mini.gif"):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/system/photos/original/mini.gif?1307540521" for 127.0.0.1 at 2011-06-08 21:42:27 +0800
+
+ActionController::RoutingError (No route matches "/system/photos/original/mini.gif"):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/system/photos/original/mini.gif?1307540521" for 127.0.0.1 at 2011-06-08 21:42:34 +0800
+
+ActionController::RoutingError (No route matches "/system/photos/original/mini.gif"):
+  
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:48:37 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2011-06-08 21:48:44 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:48:48 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2011-06-08 21:48:50 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1
+Rendered products/show.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 109ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:48:58 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2011-06-08 21:49:01 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:49:03 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2011-06-08 21:49:04 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 125ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:49:56 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 125ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:50:01 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:50:03 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 21:54:09 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (62.5ms)
+Rendered products/new.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 125ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 21:54:36 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test2", "img_path"=>"test2", "photo"=>#<ActionDispatch::Http::UploadedFile:0x18f8c70 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-1a6j6h3>>, "content"=>"test2"}, "commit"=>"Create Product"}
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('test2', 'D:/Lyw/program/ror/chinapride/public/system/photos//original/duanlian.png', 'test2', '2011-06-08 13:54:37.375000', '2011-06-08 13:54:37.375000', 'duanlian.png', 'image/png', 409859)
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/4/original/duanlian.png
+Redirected to http://localhost:3000/products/4
+Completed 302 Found in 422ms
+
+
+Started GET "/products/4" for 127.0.0.1 at 2011-06-08 21:54:37 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 4 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 109ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:55:07 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2011-06-08 21:55:11 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 3 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 141ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 21:55:13 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 21:55:14 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:06:46 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 94ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 22:07:09 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 94ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:39:26 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:39:30 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:39:32 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:39:36 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:39:42 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-08 22:39:59 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 22:40:26 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x19a7d80 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-94q2up>>, "content"=>"test"}, "commit"=>"Create Product"}
+Completed   in 31ms
+
+Paperclip::PaperclipError (Product model missing required attr_accessor for 'photo_file_name'):
+  app/controllers/products_controller.rb:43:in `new'
+  app/controllers/products_controller.rb:43:in `create'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (93.8ms)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110602132826)
+Migrating to CreateCategories (20110602133051)
+Migrating to AddPhotoToProducts (20110608125351)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1mALTER TABLE "products" ADD "photo_file_name" varchar(255)[0m
+  [1m[35mSQL (0.0ms)[0m  ALTER TABLE "products" ADD "photo_content_type" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mALTER TABLE "products" ADD "photo_file_size" integer[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110608125351')
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("categories")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-08 22:41:23 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S/p2NswRan7QeLDk/FFSKpieapVuHXY1IyTQyGF0sIg=", "product"=>{"name"=>"test", "img_path"=>"test", "photo"=>#<ActionDispatch::Http::UploadedFile:0x197cf88 @original_filename="duanlian.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"duanlian.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110608-760-gfk0rq>>, "content"=>"test"}, "commit"=>"Create Product"}
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('test', 'D:/Lyw/program/ror/chinapride/public/system/photos//original/duanlian.png', 'test', '2011-06-08 14:41:23.562500', '2011-06-08 14:41:23.562500', 'duanlian.png', 'image/png', 409859)[0m
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/1/original/duanlian.png
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 438ms
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 22:41:23 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 109ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:41:27 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 188ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-08 22:42:40 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:42:53 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1/edit" for 127.0.0.1 at 2011-06-08 22:42:54 +0800
+  Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/_form.html.erb (46.9ms)
+Rendered products/edit.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 125ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-06-08 22:43:07 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-08 22:43:08 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: D:/Lyw/program/ror/chinapride/vendor/plugins/paperclip/rails/init.rb. (called from <top (required)> at D:/Lyw/program/ror/chinapride/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-10 21:06:01 +0800
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (140.6ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:06:13 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 594ms (Views: 93.8ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-10 21:06:17 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (0.0ms)
+Rendered products/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 188ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:06:30 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 125ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-10 21:06:32 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 156ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:06:42 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-10 21:06:44 +0800
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (15.6ms)
+Rendered products/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-10 21:07:01 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/UFW4/YzIffc0UsYwkuJLlvmNEm7+DERtl4lLrY76ok=", "product"=>{"name"=>"abc", "img_path"=>"", "photo"=>#<ActionDispatch::Http::UploadedFile:0x197fe38 @original_filename="\xE5\x94\x9B\xE5\xA4\xB4\xE6\xA0\x87\xE5\xBF\x97\xE6\x98\xBE\xE7\xA4\xBA.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"\xE5\x94\x9B\xE5\xA4\xB4\xE6\xA0\x87\xE5\xBF\x97\xE6\x98\xBE\xE7\xA4\xBA.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110610-3068-1wl9plh>>, "content"=>"asddfd"}, "commit"=>"Create Product"}
+  [1m[35mAREL (15.6ms)[0m  INSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('abc', 'D:/Lyw/program/ror/chinapride/public/system/photos//original/唛头标志显示.jpg', 'asddfd', '2011-06-10 13:07:01.953125', '2011-06-10 13:07:01.953125', '唛头标志显示.jpg', 'image/jpeg', 786669)
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/2/original/唛头标志显示.jpg
+Completed   in 719ms
+
+Errno::EINVAL (Invalid argument - D:/Lyw/program/ror/chinapride/public/system/photos/2/original/鍞涘ご鏍囧織鏄剧ず.jpg):
+  app/controllers/products_controller.rb:47:in `block in create'
+  app/controllers/products_controller.rb:46:in `create'
+
+Rendered D:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (93.8ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-10 21:08:02 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/UFW4/YzIffc0UsYwkuJLlvmNEm7+DERtl4lLrY76ok=", "product"=>{"name"=>"abc", "img_path"=>"", "photo"=>#<ActionDispatch::Http::UploadedFile:0x1ea5a20 @original_filename="abc.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[photo]\"; filename=\"abc.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/DOCUME~1/LAIYON~1/LOCALS~1/Temp/RackMultipart20110610-3068-t8ec7c>>, "content"=>"asddfd"}, "commit"=>"Create Product"}
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "products" ("name", "img_path", "content", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('abc', 'D:/Lyw/program/ror/chinapride/public/system/photos//original/abc.jpg', 'asddfd', '2011-06-10 13:08:02.718750', '2011-06-10 13:08:02.718750', 'abc.jpg', 'image/jpeg', 786669)[0m
+[paperclip] Saving attachments.
+[paperclip] saving D:/Lyw/program/ror/chinapride/public/system/photos/2/original/abc.jpg
+Redirected to http://localhost:3000/products/2
+Completed 302 Found in 656ms
+
+
+Started GET "/products/2" for 127.0.0.1 at 2011-06-10 21:08:02 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:08:11 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 109ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-10 21:08:23 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:08:29 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2011-06-10 21:08:31 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+Rendered products/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 156ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:08:42 +0800
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2011-06-10 21:08:49 +0800
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products"
+Rendered products/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 125ms (Views: 93.8ms | ActiveRecord: 0.0ms)
