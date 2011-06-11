@@ -40,7 +40,9 @@ class ProductsController < ApplicationController
   # POST /products
   # POST /products.xml
   def create
-    @product = Product.new(params[:product])
+    @category = Category.find(params[:category_id])
+    @product = @category.products.create(params[:product])
+    
 
 	@product.img_path = @product.photo.path;
     respond_to do |format|

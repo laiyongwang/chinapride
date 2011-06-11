@@ -4,6 +4,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string :name
       t.string :img_path
       t.text :content
+      t.references :category
 
       t.timestamps
     end

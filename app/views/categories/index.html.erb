@@ -1,22 +1,13 @@
-<h1>Listing categories</h1>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @categories.each do |category| %>
-  <tr>
-    <td><%= category.name %></td>
-    <td><%= link_to 'Show', category %></td>
-    <td><%= link_to 'Edit', edit_category_path(category) %></td>
-    <td><%= link_to 'Destroy', category, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+<h2 class="category_title">All <%= @category.name %></h2>
+<ul class="browse-auctions">
+<% @products.each do |product| %>
+	<li>
+	<%= image_tag product.photo.url, :size => "200x200" %> <br />
+	<%= product.name %> <br />
+	<%= product.content%> <br />
+  </li>
 <% end %>
-</table>
+</ul>
 
 <br />
 

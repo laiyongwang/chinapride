@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
@@ -43,7 +43,15 @@
 		
 		<div id="main">			
 			<div id="left_col">
-				This is left column.
+				<h1>All categories</h1>
+				<ul>
+				<% @categories.each do |category| %>
+				  <li>
+				    <td><%= link_to "#{category.name}", category %></td>
+				  </li>
+				<% end %>
+				</ul>
+				
 			</div>
 			<div id="right_col">
 				<%= yield %>

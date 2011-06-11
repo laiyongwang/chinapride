@@ -5,6 +5,7 @@ en:
   hello: "Hello world"
   homepage: "Home"
   product: "Product"
+  category: "Product"
   copyright: "Power By ChinaPride @ 2011"
   phone: "Tel：0755-84525053  &nbsp;&nbsp;Fax：0755-84525165"
   client: "Client"

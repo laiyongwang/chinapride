@@ -6,13 +6,18 @@
 </p>
 
 <p>
+	<b>Category:</b>
+	<%= @product.category.name %>
+	</p>
+
+<p>
   <b>Img path:</b>
   <%= @product.img_path %>
 </p>
 
 <p>
   <b>Img path:</b>
-  <%= image_tag @product.photo.url %> 
+  <%= image_tag @product.photo.url, :size => "200x200" %> 
 </p>
 
 

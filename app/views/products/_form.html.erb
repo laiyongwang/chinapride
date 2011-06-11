@@ -16,9 +16,9 @@
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
+	
   <div class="field">
-    <%= f.label :img_path %><br />
-    <%= f.text_field :img_path %>
+	<%= select_tag :category_id, options_for_select(Category.all.collect{|x| [x.name, x.id]}, @category_id)%>
   </div>
   
   <%= f.file_field  :photo %>

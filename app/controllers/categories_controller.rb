@@ -3,7 +3,8 @@ class CategoriesController < ApplicationController
   # GET /categories.xml
   def index
     @categories = Category.all
-
+    @category = Category.first
+    @products = @category.products
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @categories }
@@ -13,6 +14,7 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.xml
   def show
+    @categories = Category.all
     @category = Category.find(params[:id])
 
     respond_to do |format|
