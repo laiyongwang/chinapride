@@ -9101,3 +9101,147 @@ Started GET "/categories" for 127.0.0.1 at 2011-06-12 11:30:08 +0800
   [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products" WHERE ("products".category_id = 1)
 Rendered categories/index.html.erb within layouts/categories (21.9ms)
 Completed 200 OK in 82ms (Views: 51.7ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "img_path" varchar(255), "content" text, "category_id" integer, "created_at" datetime, "updated_at" datetime, "photo_file_name" varchar(255), "photo_content_type" varchar(255), "photo_file_size" integer) [0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110608125351')
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110602132826')[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110602133051')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+
+
+Started GET "/categories" for 127.0.0.1 at 2011-06-12 15:29:39 +0800
+  Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.6ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" LIMIT 1
+Completed   in 155ms
+
+NoMethodError (undefined method `products' for nil:NilClass):
+  app/controllers/categories_controller.rb:7:in `index'
+
+Rendered /Users/Littlepan/.rvm/gems/ruby-1.9.2-p180@ruby192/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/Littlepan/.rvm/gems/ruby-1.9.2-p180@ruby192/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/Littlepan/.rvm/gems/ruby-1.9.2-p180@ruby192/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2011-06-12 15:31:25 +0800
+  Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" LIMIT 1
+Rendered categories/index.html.erb within layouts/categories (18.3ms)
+Completed   in 72ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h2 class="category_title">All <%= @category.name %></h2>
+    2: <ul class="browse-auctions">
+    3: <% @products.each do |product| %>
+    4: 	<li>
+  app/views/categories/index.html.erb:1:in `_app_views_categories_index_html_erb__3823196904323113350_2173830660__2621386306054154482'
+  app/controllers/categories_controller.rb:11:in `index'
+
+Rendered /Users/Littlepan/.rvm/gems/ruby-1.9.2-p180@ruby192/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/Littlepan/.rvm/gems/ruby-1.9.2-p180@ruby192/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/Littlepan/.rvm/gems/ruby-1.9.2-p180@ruby192/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2011-06-12 15:32:33 +0800
+  Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" LIMIT 1
+Rendered categories/index.html.erb within layouts/categories (8.1ms)
+Completed 200 OK in 24ms (Views: 12.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2011-06-12 15:33:02 +0800
+  Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" LIMIT 1
+Rendered categories/index.html.erb within layouts/categories (4.5ms)
+Completed 200 OK in 21ms (Views: 8.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2011-06-12 15:33:06 +0800
+  Processing by CategoriesController#new as HTML
+Rendered categories/_form.html.erb (8.5ms)
+Rendered categories/new.html.erb within layouts/categories (14.2ms)
+Completed 200 OK in 56ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/categories" for 127.0.0.1 at 2011-06-12 15:33:11 +0800
+  Processing by CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B+zNVm6Zyfz2diwiUC7c72WzXHFVHiR/YUv9H0ODDTI=", "category"=>{"name"=>"Toy"}, "commit"=>"Create Category"}
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ('Toy', '2011-06-12 07:33:11.227014', '2011-06-12 07:33:11.227014')
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 142ms
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2011-06-12 15:33:11 +0800
+  Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.6ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" WHERE ("products".category_id = 1)[0m
+Rendered categories/show.html.erb within layouts/categories (30.6ms)
+Completed 200 OK in 53ms (Views: 34.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2011-06-12 15:33:20 +0800
+  Processing by ProductsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Rendered products/_form.html.erb (38.7ms)
+Rendered products/new.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 104ms (Views: 50.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2011-06-12 15:33:33 +0800
+  Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B+zNVm6Zyfz2diwiUC7c72WzXHFVHiR/YUv9H0ODDTI=", "product"=>{"name"=>"111", "img_path"=>"/images/products/bag/cigarette pouch.JPG", "content"=>"111"}, "category_id"=>"1", "commit"=>"Create Product"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "products" ("name", "img_path", "content", "category_id", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size") VALUES ('111', '/images/products/bag/cigarette pouch.JPG', '111', 1, '2011-06-12 07:33:33.367922', '2011-06-12 07:33:33.367922', NULL, NULL, NULL)
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 99ms
+
+
+Started GET "/products/1" for 127.0.0.1 at 2011-06-12 15:33:33 +0800
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+Rendered products/show.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 107ms (Views: 47.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/categories" for 127.0.0.1 at 2011-06-12 15:33:36 +0800
+  Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" LIMIT 1
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE ("products".category_id = 1)[0m
+Rendered categories/index.html.erb within layouts/categories (21.0ms)
+Completed 200 OK in 93ms (Views: 25.0ms | ActiveRecord: 1.6ms)

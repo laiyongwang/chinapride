@@ -4,7 +4,9 @@ class CategoriesController < ApplicationController
   def index
     @categories = Category.all
     @category = Category.first
-    @products = @category.products
+    unless @category == nil
+      @products = @category.products
+    end
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @categories }

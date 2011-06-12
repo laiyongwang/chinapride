@@ -1,14 +1,17 @@
-<h2 class="category_title">All <%= @category.name %></h2>
-<ul class="browse-auctions">
-<% @products.each do |product| %>
-	<li>
-	<%= image_tag product.photo.url, :size => "200x200" %> <br />
-	<%= product.name %> <br />
-	<%= product.content%> <br />
-  </li>
-<% end %>
-</ul>
 
-<br />
+<% unless @category == nil %>
+	<h2 class="category_title">All <%= @category.name %></h2>
+	<ul class="browse-auctions">
+	<% @products.each do |product| %>
+		<li>
+		<%= image_tag product.img_path, :size => "200x200" %> <br />
+		<%= product.name %> <br />
+		<%= product.content%> <br />
+	  </li>
+	<% end %>
+	</ul>
+
+	<br />
+<% end %>
 
 <%= link_to 'New Category', new_category_path %>
