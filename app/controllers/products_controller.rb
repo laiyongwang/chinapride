@@ -57,7 +57,10 @@ class ProductsController < ApplicationController
   # PUT /products/1
   # PUT /products/1.xml
   def update
+    # @category = Category.find(params[:category_id])
+    # @product = @category.products.find(params[:product])
     @product = Product.find(params[:id])
+    @product.category = Category.find(params[:category_id])
 
     respond_to do |format|
       if @product.update_attributes(params[:product])
