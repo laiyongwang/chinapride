@@ -53,12 +53,12 @@ ul.menu li a:hover
 
 #left_col {
 	float: left;
-	width: 300px;
+	width: 150px;
 }
 
 #right_col {
 	float: right;
-	width: 600px;
+	width: 750px;
 }
 
 
@@ -94,7 +94,7 @@ ul.menu li a:hover
 }
 
 .browse-auctions li {
-    width: 50%;
+    width: 30%;
     float: left;
     text-align: center;
     line-height: 200%!important;
