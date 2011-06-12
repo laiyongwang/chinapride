@@ -1,0 +1,9 @@
+development:
+ access_key_id: AKIAJUN4UEWRI6OA4IQQ
+ secret_access_key: 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
+ bucket: mybucket
+ 
+production:
+ access_key_id: AKIAJUN4UEWRI6OA4IQQ
+ secret_access_key: 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
+ bucket: mybucket
