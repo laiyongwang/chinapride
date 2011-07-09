@@ -1,4 +1,6 @@
 Chinapride::Application.routes.draw do
+  resources :news
+
   resources :categories
 
   resources :products

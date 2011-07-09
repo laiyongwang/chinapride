@@ -40,11 +40,14 @@
 	
 	<div style="padding-left: 15px; background: url(/images/g.gif) no-repeat; margin-left: 7px;">
 		<table class="news" border="0px" cellspacing="0px" cellpadding="0px">
-			<% for i in 0..5 %>
+			<!-- <% for i in 0..5 %>
 				<tr>
 					<td class="news_title">公司网站正式发布_<%= i %></td>
 					<td class="news_date">2011-06-06</td>
 				</tr>
+			<% end %> -->
+			<% @news.each do |news| %>
+			<%= news.title %>
 			<% end %>
 		</table>
 	</div>
