@@ -1,13 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-
-  <h2 class="category_title">All <%= @category.name %></h2>
+  <h2 class="category_title">All <%= @category.name %></h2>	
+  
   <ul class="browse-auctions">
+  
   <% @category.products.each do |product| %>
 	<li>
-	<%= image_tag product.img_path, :size => "200x200" %> <br />
-	<%= product.name %> <br />
-	<%= product.content%> <br />
+	    <a href="/categories/<%= product.category_id %>/products/<%= product.id %>">
+			<%= image_tag product.img_path, :size => "200x200" %> <br />
+			<% if I18n.locale.to_s() == "cn" %>
+				<%= product.name_cn %> <br />
+			<% else %>
+				<%= product.name %> <br />
+			<% end %>
+		
+		</a>
+	
     </li>
   <% end %>
   </ul>

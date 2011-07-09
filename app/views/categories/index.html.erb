@@ -5,8 +5,11 @@
 	<% @products.each do |product| %>
 		<li>
 		<%= image_tag product.img_path, :size => "200x200" %> <br />
-		<%= product.name %> <br />
-		<%= product.content%> <br />
+		<% if I18n.locale.to_s() == "cn" %>
+			<%= product.name_cn %> <br />
+		<% else %>
+			<%= product.name %> <br />
+		<% end %>
 	  </li>
 	<% end %>
 	</ul>

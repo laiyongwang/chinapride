@@ -1,7 +1,13 @@
 class ProductsController < ApplicationController
   # GET /products
   # GET /products.xml
+  
+  layout "categories";
+  
   def index
+  	@categories = Category.all
+    @category = Category.first
+    
     @products = Product.all
 
     respond_to do |format|
@@ -13,6 +19,10 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.xml
   def show
+  	
+  	@categories = Category.all
+    @category = Category.first
+  	
     @product = Product.find(params[:id])
 
     respond_to do |format|
@@ -35,6 +45,7 @@ class ProductsController < ApplicationController
   # GET /products/1/edit
   def edit
     @product = Product.find(params[:id])
+    @category_id = @product.category_id;
   end
 
   # POST /products

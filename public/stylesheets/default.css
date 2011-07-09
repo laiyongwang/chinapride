@@ -5,13 +5,15 @@ body
 	padding: 0px;
 	margin: 0px;
 	line-height: 22px;
-	background-color: #FFE;
+	background-color: #f1f1f1;
 }
 
 #header
 {
 	margin: 0px auto;
 	width: 960px;
+	background-color: #FFF;
+	margin-top: 20px;
 }
 
 ul.menu {
@@ -47,18 +49,24 @@ ul.menu li a:hover
 {
 	margin: 0px auto;
 	width: 960px;	
-	height: 400px;
-	clear: both;
+	background-color: #FFF;
+	overflow: auto;
 }
 
 #left_col {
 	float: left;
-	width: 150px;
+	width: 180px;
+	padding-left: 10px;
 }
 
 #right_col {
 	float: right;
 	width: 750px;
+}
+
+#left_col ul
+{
+	list-style: none;	
 }
 
 
@@ -111,12 +119,114 @@ ul.menu li a:hover
     padding: 6px;
     margin-bottom: .5em;
 }
+
+.browse-auctions a
+{
+	text-decoration: none;
+}
+
 .category_title {
 	background-color: #fff;
     border-radius: 10px 10px 10px 10px;
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px 15px 15px;
     padding: 20px 20px 5px;
 	text-align: center;
     
 }
+
+#category
+{
+
+}
+
+#category ul
+{
+	padding-left: 10px;
+}
+
+#category ul li
+{
+	display: block;
+	border-bottom: solid 1px #EEE;
+	
+}
+
+#category a
+{
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	height: 20px;
+	padding: 5px;
+	padding-top: 2px;
+	font-weight: bold;
+}
+
+#category a:link
+{
+	color: blue;
+}
+
+#category a:active 
+{ 
+	color: yellow;
+}
+#category a:hover 
+{ 
+	color: #FFF;
+	background-color: #B1C5E0;
+}
+
+#category a:visited 
+{ 
+	color: #666;
+}
+
+h1
+{
+	font-size: 1.5em;
+}
+
+.content
+{
+	color: #888;	
+}
+
+#home_left
+{
+	float: left;
+	width: 250px;
+
+}
+
+#home_right
+{
+	float: right;	
+	width: 250px;
+
+}
+
+#home_center
+{
+	padding: 0px 250px 0px 250px;
+
+}
+
+.news
+{
+	width: 100%;
+}
+
+.news td
+{
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+.news .news_date
+{
+	width: 80px;
+}
+
+

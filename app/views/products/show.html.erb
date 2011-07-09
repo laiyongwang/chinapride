@@ -1,31 +1,20 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @product.name %>
-</p>
-
-<p>
-	<b>Category:</b>
-	<%= @product.category.name %>
+<% if I18n.locale.to_s() == "cn" %>
+	<p>
+	  <b><%= @product.name_cn %></b>
 	</p>
-
-<p>
-  <b>Img path:</b>
-  <%= @product.img_path %>
-</p>
-
-<p>
-  <b>Img path:</b>
-  <%= image_tag @product.img_path, :size => "200x200" %> 
-</p>
-
-
-<p>
-  <b>Content:</b>
-  <%= @product.content %>
-</p>
+	<p class="content">
+		<%= @product.content_cn %>
+	</p>
+<% else %>
+	<p>
+	  <b><%= @product.name %></b>
+	</p>
+	<p class="content">
+  		<%= @product.content %>
+	</p>
+<% end %>
 
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+

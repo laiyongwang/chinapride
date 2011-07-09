@@ -7,52 +7,40 @@
 	</head>
 	<body>
 		<div id="header">
-			<div id="logo">
-				
-				<%=image_tag("logo.png", :size => "120x60")%>
-			</div>			
-			<div id="lang_selector">
-				<% locales = {
-				  "en" => "English",
-				  "cn" => "中文"
-				}%>
-
-				<%=raw locales.collect{|k, v|
-						link = link_to_unless(I18n.locale.to_s == k, v, params.merge(:locale => k)) do |name|
-							"<strong>#{name}</strong>".html_safe
-						end
-
-						link
-					}.join(" | ")%>
-			</div>
-			<div id="main_menu" style="clear:both;">
-				<ul class="menu">
-					<li><a href="/home/index"><%=t :homepage%></a></li>
-					<li><%=link_to "#{t :category}", categories_path%></li>
-					<li><a href="#"><%=t :client%></a></li>
-					<li><a href="/about/index"><%=t :about%></a></li>
-					<li><a href="/about/contact"><%=t :contact%></a></li>
-				</ul>
-            </div>
-			
-			<div id="banner">
-				<%=image_tag "banner.png", :width => "960px"%>
-			</div>
+			<%= render :file => 'layouts/_header' %>
 			
 		</div>
 		
 		<div id="main">			
 			<div id="left_col">
-				<h1>All categories</h1>
-				<% unless @categories == nil %>
-					<ul>
-					<% @categories.each do |category| %>
-					  <li>
-					    <td><%= link_to "#{category.name}", category %></td>
-					  </li>
+				<div id="category">
+					<h1><%= t :categories %></h1>
+					<% unless @categories == nil %>
+						<ul>
+						<% @categories.each do |category| %>
+						  <li>
+						  	<% @query_id = params[:id].to_i() %>
+						  	<% if params[:category_id] != nil %>
+						  	    <% @query_id = params[:category_id].to_i() %>
+						  	<% end %>
+						  	<% if category.id == @query_id %>
+						  	    <% if I18n.locale.to_s() == "cn" %>
+						    		<td><%= link_to "#{category.name_cn}", category, {:style => 'background-color: #7C99C0; color: #fff;'} %></td>
+						    	<% else %>
+						    		<td><%= link_to "#{category.name}", category, {:style => 'background-color: #7C99C0; color: #fff;'} %></td>
+						    	<% end %>
+						    <% else %>
+						    	<% if I18n.locale.to_s() == "cn" %>
+						    		<td><%= link_to "#{category.name_cn}", category %></td>
+						    	<% else %>
+						    		<td><%= link_to "#{category.name}", category %></td>
+						    	<% end %>
+						    <% end %>
+						  </li>
+						<% end %>
+						</ul>
 					<% end %>
-					</ul>
-				<% end %>
+				</div> <!-- End of category -->
 				
 			</div>
 			<div id="right_col">
