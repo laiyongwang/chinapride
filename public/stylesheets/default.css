@@ -1,6 +1,7 @@
 body 
 {
-	font-family: Arial, Helvetica, sans-serif, '宋体';
+
+	font-family: Verdana, Arial, Helvetica, sans-serif, '宋体';
 	font-size: 13px;
 	padding: 0px;
 	margin: 0px;
@@ -16,10 +17,16 @@ body
 	margin-top: 20px;
 }
 
+.main_menu {
+	clear: both;
+}
+
 ul.menu {
 	margin: 0;
 	padding: 0;
 	float: right;
+	background-color:#29497b;
+	color:#f90;
 }
 
 ul.menu li 
@@ -29,7 +36,7 @@ ul.menu li
 }
 
 ul.menu li a {
-    /*background: url("images/nav_left_line.gif") no-repeat scroll left top transparent;*/
+/*    background: url("images/nav_left_line.gif") no-repeat scroll left top transparent;*/
     display: block;
     height: 26px;
     overflow: hidden;
@@ -37,12 +44,14 @@ ul.menu li a {
     text-align: center;
     width: 120px;
 	text-decoration: none;
-	color: #000;
+	color: #f90;
+	font-style: bold;
+	font-size: 1.2em;
 }
 
-ul.menu li a:hover
+ul.menu a:hover
 {
-	color: blue;
+	background-color: #B1C5E0;
 }
 
 #main
@@ -55,13 +64,13 @@ ul.menu li a:hover
 
 #left_col {
 	float: left;
-	width: 180px;
+	width: 240px;
 	padding-left: 10px;
 }
 
 #right_col {
 	float: right;
-	width: 750px;
+	width: 690px;
 }
 
 #left_col ul
@@ -77,6 +86,7 @@ ul.menu li a:hover
 	margin-top: 10px;
 	height: 100px;
 	clear: both;
+	text-align: center;
 }
 
 #footer a
@@ -229,4 +239,35 @@ h1
 	width: 80px;
 }
 
+#bg_title 
+{
+	height: 30px; 
+	background-image: url('/images/bg_title.png'); 
+	background-repeat: repeat-x; 
+	color: #004C99;
+	padding: 2px 0px 0px 5px; 
+	font-weight: bold;	
+}
 
+dl.about_info{
+	float: left;
+	margin: 10px;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.about_info dt.title{
+	font-weight: bold;
+	float:left;
+	display: block;
+}
+.about_info dd{
+	text-align: left;
+	margin-left: 100px;
+	font-style: normal;
+	display: block;
+	padding-bottom: 5px;
+}

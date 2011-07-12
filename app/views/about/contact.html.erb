@@ -1,4 +1,15 @@
 ﻿
-<div id="about">
-<%=t(:contact_us).html_safe%>
+<div class="about" style="padding: 10px;">
+<!-- <%=t(:contact_us).html_safe%> -->
+	<dl class="about_info">
+		<dt class="title"><%=t :address_name%></dt>
+		<dd><%=t( :address).html_safe %></dd>
+		<dt class="title"><%=t :email_name%></dt>
+		<dd><%=t :email %></dd>
+		<dt class="title"><%=t :phone_name%></dt>
+		<dd><%=t :phone %></dd>
+		<dt class="title"><%=t :fax_name%></dt>
+		<dd><%=t :fax %></dd>
+	</dl>
 </div>
+

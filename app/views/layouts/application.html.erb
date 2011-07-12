@@ -14,19 +14,56 @@
 		
 		<div id="main">			
 			<div id="left_col">
-				This is left column.
+				<div id="home_left">
+
+					<div style="height: 30px; background-image: url('/images/bg_title.png'); background-repeat: repeat-x; color: #004C99;
+					    padding: 2px 0px 0px 5px; font-weight: bold; vertical-align: middle; ">
+
+					    <table>
+					    	<tr>
+					    		<td style="vertical-align: middle; width: 10px;">
+					    			<img src="/images/title_img_yellow.png" /> 
+					    		</td>
+					    		<td style="padding-bottom: 6px;">企业文化</td>
+					    	</tr>
+					    </table>
+					</div>
+					<div style="padding-left: 15px;">
+						<div style="color: #004C99; font-weight: bold; padding-top: 10px;">景愿</div>
+						<div style="border-bottom: solid 1px #DDD; padding-bottom: 5px;">创意无限，精益求精，厚积薄发</div>
+
+						<div style="color: #004C99; font-weight: bold; padding-top: 10px;">价值观</div>
+						<div style="border-bottom: solid 1px #DDD; padding-bottom: 5px;">高效、创新、开放、诚信</div>
+
+						<div style="color: #004C99; font-weight: bold; padding-top: 10px;">企业精神</div>
+						<div style="padding-bottom: 5px;">激情、执着、自信、团结</div>
+					</div>
+				</div>
+				
 			</div>
 			<div id="right_col">
+				<div id="home_middle">
+					<div style="height: 30px; background-image: url('/images/bg_title.png'); background-repeat: repeat-x; color: #004C99;
+					    padding: 2px 0px 0px 5px; font-weight: bold; vertical-align: middle;">
+						<table>
+					    	<tr>
+					    		<td style="vertical-align: middle; width: 10px;">
+					    			<img src="/images/title_img_blue.png" /> 
+					    		</td>
+					    		<td style="padding-bottom: 6px;">信息</td>
+					    	</tr>
+					    </table>
+					</div>
+				
 				<%= yield %>
+				</div>
 			</div>			
 		</div>
 
 					
 		<div id="footer">
 			<div>
-				<%=t :copyright%> <br />
-				<%=t(:phone).html_safe%> <br />
-				<%=t :address%>
+				&copy; <b><%=t :copyright%></b> 2011<br />
 			</div>			
 		</div>
 		
